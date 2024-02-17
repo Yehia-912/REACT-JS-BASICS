@@ -1,0 +1,20 @@
+.nav-list {
+  list-style: none;
+  padding: 10px;
+  margin: 30px;
+  border: 1px solid red;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  li {
+    padding-inline: 20px;
+    a {
+      color: black ;
+      transition: 0.2s ease-in-out;
+    }
+    a:hover {
+      color: red;
+    }
+  }
+}
